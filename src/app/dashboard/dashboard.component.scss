@@ -1,0 +1,36 @@
+
+.main-container{
+  display: flex;
+
+}
+
+
+.sideNav{
+display: flex;
+height: 97vh;
+width: 20vw;
+flex-direction: column;
+justify-content: center;
+}
+
+.content-container{
+  background-color: azure;
+  height: 97vh;
+  width: 80vw;
+}
+
+.nav{
+  background-color: rgb(110, 231, 187);
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  margin: 30px 0px 30px 30px;
+  height: 72vh;
+  background-color: white;
+  padding: 20px;
+}
+

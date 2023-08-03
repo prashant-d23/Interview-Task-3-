@@ -1,0 +1,19 @@
+<!--  if we have nested routing then use child routing  -->
+<div class="content-container">
+  <div class="nav">
+    <ul class="nav nav-underline">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" routerLink="/offices/hierarchy" routerLinkActive="active">Office Hierarchy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/offices/location" routerLinkActive="active">Office Location</a>
+      </li>
+
+    </ul>
+  </div>
+  <hr>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
